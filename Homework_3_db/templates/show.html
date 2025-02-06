@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>CSCI_3700 HW3</title>
+    <style>
+    table, th, td {
+      border:1px solid black;
+    }
+    </style>
+</head>
+
+
+<body>
+    <p>Unique fruits in basket_a and basket_b</p>
+    
+    <table>
+      <!-- tr represents a row -->
+      <tr>
+        {% for col_name in table_title %}
+            <th>{{col_name}}</th>
+        {% endfor %}
+      </tr>
+      {% for row in sql_table %}
+      <tr>
+        {% for col in row %}
+        <td>{{col}}</td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+ 
+    </table> 
+
+    <p> </p>
+    <a href="http://127.0.0.1:5000/">Click here to go to home page</a>
+
+
+</body>
+</html>

@@ -1,0 +1,2 @@
+# Machine Learning + Database using Postgress + Flask
+This is a now public repo of work done for Machine Learning in ECU + Postgress Database integration. Multiple projects done in collaberation with Ethan Spivey.
